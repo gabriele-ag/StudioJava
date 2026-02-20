@@ -16,5 +16,28 @@ public class Condizioni {
         
         String x = 5 < 10 ? "Sì" : "No";
         System.out.println(x);
+
+        String nome = "Luca";
+
+        switch(nome) {
+        case "Luca" :
+            System.out.println("Ciao " + nome);
+            break;
+        case "Marco" :
+            System.out.println("Ciao " + nome);
+            break;
+        case "Antonio" :
+            System.out.println("Ciao " + nome);
+            break;
+        case "Giovanna" :
+            System.out.println("Ciao " + nome);
+            break;
+        case "Erica" :
+            System.out.println("Ciao " + nome);
+            break;
+        default :
+            System.out.println("Ciao chiunque tu sia");
+            break;
+        }
     }
 }   
