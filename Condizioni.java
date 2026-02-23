@@ -91,5 +91,28 @@ public class Condizioni {
             }
         }
 
+        String nuovoNome = "Leonardo";
+        boolean risultato = nuovoNome.equalsIgnoreCase("LEOnardo");
+        int risultatoDue = nuovoNome.length();
+        char risultatoTre = nuovoNome.charAt(5);
+        int risultatoQuattro = nuovoNome.indexOf("a");
+        boolean risultatoCinque = nuovoNome.isEmpty();
+        String risultatoSei = nuovoNome.toLowerCase();
+        String risultatoSette = nuovoNome.toUpperCase();
+        String risultatoOtto = nuovoNome.trim();
+        String risultatoNove = nome.replace("o","w");
+
+        
+
+        
+        System.out.println(risultato);
+        System.out.println(risultatoDue);
+        System.out.println(risultatoTre);
+        System.out.println(risultatoQuattro);
+        System.out.println(risultatoCinque);
+        System.out.println(risultatoSei);
+        System.out.println(risultatoSette);
+        System.out.println(risultatoOtto);
+        
     }
 }   
