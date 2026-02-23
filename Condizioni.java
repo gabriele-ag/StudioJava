@@ -39,5 +39,15 @@ public class Condizioni {
             System.out.println("Ciao chiunque tu sia");
             break;
         }
+
+        int i = 5;
+        while(i < 0 ) {
+            System.out.println("While" + i);
+            i++;
+        }
+
+        do {
+            System.out.println("downwhile" + i);
+        } while ( i < 0 );
     }
 }   
