@@ -58,5 +58,38 @@ public class Condizioni {
         for (int numero: numeri) {
             System.out.println(numero);
         }
+
+        String[][] classi = {
+            {"Luca", "Anna", "Marco"},
+            {"Edoardo", "Giovanni", "Erica"},
+            {"Mario", "Luigi", "Alice"}
+        };
+
+        // classi[0][0] = "Luca";
+        // classi[0][1] = "Anna";
+        // classi[0][2] = "Marco";
+
+        // classi[1][0] = "Edoardo";
+        // classi[1][1] = "Giovanni";
+        // classi[1][2] = "Erica";
+        
+        // classi[2][0] = "Mario";
+        // classi[2][1] = "Luigi";
+        // classi[2][2] = "Alice";
+
+        for(int classe = 0; classe < classi.length; classe++) {
+            System.out.println();
+            for(int studente = 0; studente < classi[classe].length; studente++) {
+                System.out.print(classi[classe][studente] + " ");
+            }
+        }
+
+        for(String[] classe: classi) {
+            System.out.println();
+            for(String studente: classe) {
+                System.out.print(studente + " ");
+            }
+        }
+
     }
 }   
