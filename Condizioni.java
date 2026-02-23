@@ -49,5 +49,14 @@ public class Condizioni {
         do {
             System.out.println("downwhile" + i);
         } while ( i < 0 );
+
+        for (int y = 0; i < 5; y++) {
+            System.out.println("riga" + y);
+        }
+
+        int[] numeri = {20,30,40,50,60};
+        for (int numero: numeri) {
+            System.out.println(numero);
+        }
     }
 }   
