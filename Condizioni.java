@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Condizioni {
@@ -103,8 +104,6 @@ public class Condizioni {
         String risultatoNove = nome.replace("o","w");
 
         
-
-        
         System.out.println(risultato);
         System.out.println(risultatoDue);
         System.out.println(risultatoTre);
@@ -113,6 +112,24 @@ public class Condizioni {
         System.out.println(risultatoSei);
         System.out.println(risultatoSette);
         System.out.println(risultatoOtto);
+        System.out.println(risultatoNove);
+
+
+        ArrayList<String> persone = new ArrayList<String>();
+        // ArrayList ha bisogno del wrapper
+
+        persone.add("Luca");
+        persone.add("Marco");
+        persone.add("Anna");
+
+        persone.set(2, "Paola");
+        persone.remove(0);
+        persone.clear();
+
+        for (int j = 0; i < persone.size(); j++) {
+            System.out.println(persone.get(j));
+        }
+
         
     }
 }   
