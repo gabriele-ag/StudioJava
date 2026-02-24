@@ -16,5 +16,7 @@ public class MainPersona {
 
         System.out.println(persona3.cognome);
         System.out.println(persona4.cognome);
+
+        persona3.salutaPersona();
     }
 }

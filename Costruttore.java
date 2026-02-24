@@ -11,5 +11,9 @@ public class Costruttore {
             this.eta = eta;
             this.colorePreferito = colorePreferito;
         }
+
+        void salutaPersona() {
+            System.out.println("ciao sono " + this.nome);
+        }
     }
 
