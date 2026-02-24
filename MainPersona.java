@@ -10,5 +10,11 @@ public class MainPersona {
 
         persona1.saluta();
         persona2.cammina();
+
+        Costruttore persona3 = new Costruttore("Giovanni", "Gemini", 25, "blu");
+        Costruttore persona4 = new Costruttore("Alice", "Rossi", 28, "giallo");
+
+        System.out.println(persona3.cognome);
+        System.out.println(persona4.cognome);
     }
 }
