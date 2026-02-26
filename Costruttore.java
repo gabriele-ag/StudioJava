@@ -2,14 +2,14 @@ public class Costruttore {
     
         String nome;
         String cognome;
-        int eta;
-        String colorePreferito;
+        static int numeroPersone;
 
-        Costruttore(String nome, String cognome, int eta, String colorePreferito) {
+        Costruttore(String nome, String cognome) {
             this.nome = nome;
             this.cognome = cognome;
-            this.eta = eta;
-            this.colorePreferito = colorePreferito;
+            numeroPersone++;
+            System.out.println(numeroPersone);
+
         }
 
         void salutaPersona() {
@@ -17,7 +17,7 @@ public class Costruttore {
         }
 
         public String toString() {
-            String stringa = this.nome + "\n" + this.cognome + "\n" + this.eta + "\n" + this.colorePreferito;
+            String stringa = this.nome + "\n" + this.cognome;
             return stringa;
         }
 

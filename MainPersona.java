@@ -11,8 +11,8 @@ public class MainPersona {
         persona1.saluta();
         persona2.cammina();
 
-        Costruttore persona3 = new Costruttore("Giovanni", "Gemini", 25, "blu");
-        Costruttore persona4 = new Costruttore("Alice", "Rossi", 28, "giallo");
+        Costruttore persona3 = new Costruttore("Giovanni", "Gemini");
+        Costruttore persona4 = new Costruttore("Alice", "Rossi");
 
         System.out.println(persona3.cognome);
         System.out.println(persona4.cognome);
@@ -20,15 +20,17 @@ public class MainPersona {
         persona3.salutaPersona();
 
         
-        Costruttore newPersona = new Costruttore("Giovanni", "Pinello", 34, "rosso");
-        Costruttore newPersona2 = new Costruttore("Giada", "Libelli", 25, "blu");
-        Costruttore newPersona3 = new Costruttore("Alice", "Marza", 35, "giallo");
+        Costruttore newPersona = new Costruttore("Giovanni", "Pinello");
+        Costruttore newPersona2 = new Costruttore("Giada", "Libelli");
+        Costruttore newPersona3 = new Costruttore("Alice", "Marza");
 
         Costruttore[] persone = {newPersona, newPersona2, newPersona3};
 
         System.out.println(persone[1]);
 
         newPersona.newSaluta(newPersona2);
+
+        System.out.println("Numero persone:" + Costruttore.numeroPersone);
 
     }
 }
