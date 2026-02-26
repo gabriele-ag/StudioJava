@@ -18,5 +18,17 @@ public class MainPersona {
         System.out.println(persona4.cognome);
 
         persona3.salutaPersona();
+
+        
+        Costruttore newPersona = new Costruttore("Giovanni", "Pinello", 34, "rosso");
+        Costruttore newPersona2 = new Costruttore("Giada", "Libelli", 25, "blu");
+        Costruttore newPersona3 = new Costruttore("Alice", "Marza", 35, "giallo");
+
+        Costruttore[] persone = {newPersona, newPersona2, newPersona3};
+
+        System.out.println(persone[1]);
+
+        newPersona.newSaluta(newPersona2);
+
     }
 }
